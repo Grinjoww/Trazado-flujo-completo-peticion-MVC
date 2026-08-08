@@ -291,7 +291,7 @@ Sin embargo, la petición recorrió correctamente todas las capas y terminó con
 
 Se observa la ejecución detenida dentro de `JwtAuthenticationFilter.doFilterInternal()` y la variable `resolvedToken` después de ejecutar `resolveToken(request)`.
 
-![Filtro JWT](evidencias/01-jwt-filter-debug.png)
+![Filtro JWT](Evidencias/01-jwt-filter-debug.png)
 
 ---
 
@@ -301,7 +301,7 @@ Se observa la ejecución dentro de `MascotaController.listar()`.
 
 También se visualizan los parámetros del objeto `Pageable` y el usuario autenticado.
 
-![Controlador](evidencias/02-mascota-controller-debug.png)
+![Controlador](Evidencias/02-mascota-controller-debug.png)
 
 ---
 
@@ -309,7 +309,7 @@ También se visualizan los parámetros del objeto `Pageable` y el usuario autent
 
 Se observa la ejecución dentro de `MascotaService.listar()`, donde se procesa el usuario autenticado y posteriormente se realiza la llamada al repositorio.
 
-![Servicio](evidencias/03-mascota-service-debug.png)
+![Servicio](Evidencias/03-mascota-service-debug.png)
 
 ---
 
@@ -317,7 +317,7 @@ Se observa la ejecución dentro de `MascotaService.listar()`, donde se procesa e
 
 Se observa el SQL generado automáticamente por Hibernate para consultar la tabla `public.mascotas` de PostgreSQL.
 
-![Consulta SQL](evidencias/04-hibernate-postgresql-sql.png)
+![Consulta SQL](Evidencias/04-hibernate-postgresql-sql.png)
 
 ---
 
@@ -325,7 +325,7 @@ Se observa el SQL generado automáticamente por Hibernate para consultar la tabl
 
 Se observa la respuesta recibida en Postman mediante el endpoint de mascotas, con código HTTP `200 OK` y contenido serializado en JSON.
 
-![Respuesta JSON](evidencias/05-postman-json-response.png)
+![Respuesta JSON](Evidencias/05-postman-json-response.png)
 
 ---
 
